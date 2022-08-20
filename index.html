@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./Images/flashlight.png">
+    <title>Flashligt</title>
+</head>
+<body id="screen">
+    <button id="changeButton" onclick="getClick()">=</button>
+    <button id="fullscreenButton" onclick="fullscreenChange()"><img src="./Images/352400_fullscreen_icon.png" class="fullscreenico"></button>
+    
+    <div class="menu" id="menuArea">
+        <p>Wpisz kod HEX koloru!</p>
+        <input type="text" id="textInput" placeholder="#FFF">
+        <input type="button" id="colorchangeButton" value="Zmień" onclick="colorChange()">
+    </div>
+    <script src="script.js">
+    </script>
+</body>
+</html>

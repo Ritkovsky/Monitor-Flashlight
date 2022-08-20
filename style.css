@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap');
+
+*
+{
+    font-family: 'Zilla Slab', serif;
+}
+body
+{
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    background-color: #fff;
+}
+#fullscreenButton
+{
+    float: right;
+    height: 20px;
+    width: 40px;
+    border-radius: 20px;
+    margin-top: 10px;
+    border: none;
+    box-shadow: 1px 1px 7px black;
+    background-color: gray;
+    transition: 1s;
+}
+#fullscreenButton:hover
+{
+    background-color: rgba(108, 108, 108, 0.712);
+    transition: 1s;
+    cursor: pointer;
+}
+.fullscreenico
+{
+    margin-top: 1px;
+    width: 18px;
+    transition: 1s;
+}
+#changeButton
+{
+    float: right;
+    margin: 10px;
+    background-color: gray;
+    border: 0px;
+    border-radius: 20px;
+    width: 40px;
+    height: 20px;
+    box-shadow: 1px 1px 7px black;
+    transition: 1s;
+    z-index: 1;
+}
+#changeButton:hover
+{
+    padding-top: 2px;
+    background-color: rgba(108, 108, 108, 0.712);
+    transition: 1s;
+    cursor: pointer;
+}
+.menu
+{
+    display: none;
+    position: absolute;
+    right: 10px;
+    width: 200px;
+    height: 175px;
+    background-color: gray;
+    top: 50px;
+    border-radius: 20px;
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    z-index: 0;
+    text-align: center;
+}
+.menu p
+{
+    color: rgb(38, 38, 38);
+}
+#textInput
+{
+    width: 175px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(38, 38, 38);
+}
+#colorchangeButton
+{
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    background-color: lightgreen;
+    font-size: 18px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: rgb(38, 38, 38);
+    font-weight: bold;
+    transition: 1s;
+}
+#colorchangeButton:hover
+{
+    box-shadow: rgba(73, 207, 68, 0.603) 0px 5px 15px;
+    transition: 1s;
+}
